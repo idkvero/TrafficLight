@@ -47,6 +47,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="changeSignalButton" destination="CrY-XO-pat" id="uPQ-VH-SZx"/>
                         <outlet property="greenSignalView" destination="aqg-FS-1Wi" id="4AP-Ob-3E4"/>
                         <outlet property="redSignalView" destination="p0M-f0-rmh" id="idu-VI-cFx"/>
                         <outlet property="yellowSignalView" destination="l3C-ss-ZYn" id="0ea-jx-Ko4"/>
