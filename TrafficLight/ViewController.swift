@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 
     }
     
-    @IBAction func changeSignalButtonDidTapped(_ sender: UIButton) {
+    @IBAction func changeSignalButtonDidTapped() {
         if yellowSignalView.alpha == 0.5 && greenSignalView.alpha == 0.5 && redSignalView.alpha == 0.5 {
             redSignalView.alpha = 1
         } else if redSignalView.alpha == 1 {

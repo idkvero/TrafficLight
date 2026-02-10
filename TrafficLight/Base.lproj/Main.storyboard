@@ -42,7 +42,7 @@
                                     <color key="titleColor" systemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="changeSignalButtonDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xp2-wN-EIe"/>
+                                    <action selector="changeSignalButtonDidTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="EHH-7p-yHB"/>
                                 </connections>
                             </button>
                         </subviews>
