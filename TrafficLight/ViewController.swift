@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet var redSignalView: UIView!
     @IBOutlet var yellowSignalView: UIView!
     @IBOutlet var greenSignalView: UIView!
+    
     @IBOutlet var changeSignalButton: UIButton!
     
     override func viewDidLoad() {
