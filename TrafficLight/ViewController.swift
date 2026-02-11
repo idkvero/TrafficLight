@@ -28,11 +28,13 @@ final class ViewController: UIViewController {
         yellowSignalView.alpha = lightOff
         greenSignalView.alpha = lightOff
         
-        redSignalView.layer.cornerRadius = 70
-        yellowSignalView.layer.cornerRadius = 70
-        greenSignalView.layer.cornerRadius = 70
         changeSignalButton.layer.cornerRadius = 15
-
+    }
+    
+    override func viewWillLayoutSubviews() {
+        redSignalView.layer.cornerRadius = redSignalView.frame.width / 2
+        yellowSignalView.layer.cornerRadius = yellowSignalView.frame.width / 2
+        greenSignalView.layer.cornerRadius = yellowSignalView.frame.width / 2
     }
     
     @IBAction func changeSignalButtonDidTapped() {
